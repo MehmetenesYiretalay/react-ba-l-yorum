@@ -1,0 +1,76 @@
+body{ margin:0; font-family:'tahoma'}
+
+nav {
+    width: 100%;
+  display:inline-block;
+  background:rgb(0, 0, 0);
+  height: 125px;
+}
+
+nav ul {
+  margin:0;padding:0; 
+  list-style-type:none;
+  display:inline-block;
+}
+
+nav ul li {
+  position:relative;
+  margin:0 20px 0 0;
+  display:inline-block;
+}
+
+li > a:after { content: ''; }
+
+li > a:only-child::before { content: ''; }
+
+nav ul li a {
+  padding:20px;
+  display:inline-block;
+  color:white;
+  text-decoration:none;
+  border-radius: 500px ;
+  background: linear-gradient(144eg, #af40ff, #5b42f3 50%, #00ddeb) ;
+  color: #fff;
+  padding: 16px !important;
+}
+
+nav ul li a:hover {
+  opacity:0.5;
+  border-radius: 500px ;
+  background: linear-gradient(144eg, #af40ff, #5b42f3 50%, #00ddeb) ;
+  color: #fff;
+  padding: 16px !important;
+}
+
+nav ul li ul {
+  display:none;
+  position:absolute;
+  left:0;
+  background:rgb(0, 0, 0);
+  float:left;
+  border-radius: 500px ;
+  background: linear-gradient(144eg, #af40ff, #5b42f3 50%, #00ddeb) ;
+  color: #fff;
+  padding: 16px !important;
+}
+
+nav ul li ul li {
+  width:100%;
+  border-bottom:1px solid rgba(22, 1, 1, 0.3);
+  border-radius: 500px ;
+  background: linear-gradient(144eg, #af40ff, #5b42f3 50%, #00ddeb) ;
+  color: #fff;
+  padding: 16px !important;
+}
+
+nav ul li:hover ul {
+  display:block;
+}
+
+nav {
+  margin-bottom: 500px;
+  
+  border-radius: 500px ;
+  Width: 100%;
+ 
+}
